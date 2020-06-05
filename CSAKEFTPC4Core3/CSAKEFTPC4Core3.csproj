@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200605074114_migration.1.20200605.3.cs" />
+    <Compile Remove="Migrations\20200605074114_migration.1.20200605.3.Designer.cs" />
+    <Compile Remove="Migrations\20200605080853_migration.1.20200605.4.cs" />
+    <Compile Remove="Migrations\20200605080853_migration.1.20200605.4.Designer.cs" />
+    <Compile Remove="Migrations\20200605082308_migration.1.20200605.5.cs" />
+    <Compile Remove="Migrations\20200605082308_migration.1.20200605.5.Designer.cs" />
+    <Compile Remove="Migrations\20200605084233_migration.1.20200605.7.cs" />
+    <Compile Remove="Migrations\20200605084233_migration.1.20200605.7.Designer.cs" />
+    <Compile Remove="Migrations\20200605084845_migration.1.20200605.7.cs" />
+    <Compile Remove="Migrations\20200605084845_migration.1.20200605.7.Designer.cs" />
+    <Compile Remove="Migrations\20200605085032_migration.1.20200605.7.cs" />
+    <Compile Remove="Migrations\20200605085032_migration.1.20200605.7.Designer.cs" />
+    <Compile Remove="Migrations\20200605085110_migration.1.20200605.7.cs" />
+    <Compile Remove="Migrations\20200605085110_migration.1.20200605.7.Designer.cs" />
+    <Compile Remove="Migrations\20200605085137_migration.1.20200605.7.cs" />
+    <Compile Remove="Migrations\20200605085137_migration.1.20200605.7.Designer.cs" />
+    <Compile Remove="Migrations\20200605085312_migration.1.20200605.7.cs" />
+    <Compile Remove="Migrations\20200605085312_migration.1.20200605.7.Designer.cs" />
+    <Compile Remove="Migrations\20200605090147_migration.1.20200605.8.cs" />
+    <Compile Remove="Migrations\20200605090147_migration.1.20200605.8.Designer.cs" />
+    <Compile Remove="Migrations\20200605090535_migration.1.20200605.8.cs" />
+    <Compile Remove="Migrations\20200605090535_migration.1.20200605.8.Designer.cs" />
+    <Compile Remove="Migrations\20200605102536_migration.1.20200605.11.cs" />
+    <Compile Remove="Migrations\20200605102536_migration.1.20200605.11.Designer.cs" />
+    <Compile Remove="Migrations\20200605103033_migration.1.20200605.11.cs" />
+    <Compile Remove="Migrations\20200605103033_migration.1.20200605.11.Designer.cs" />
+    <Compile Remove="Migrations\20200605103210_migration.1.20200605.11.cs" />
+    <Compile Remove="Migrations\20200605103210_migration.1.20200605.11.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CSAc4yClassFW">
+      <HintPath>C:\library\LPCsharp\CSAc4yClassFW.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
