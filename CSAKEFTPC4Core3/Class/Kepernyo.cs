@@ -8,6 +8,8 @@ namespace CSARMetaPlan.Class
     [Persistent]
     public class Kepernyo : RAMetaObjektum
     {
+        [Ac4yAssociationPath("Kepernyo.AdatkorLista")]
+        public KepernyoAdatkorLista KepernyoAdatkorLista { get; set; }
         
         [Ac4yEmbedded]
         [Ac4yWithoutChild]

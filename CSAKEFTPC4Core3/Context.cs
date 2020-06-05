@@ -39,7 +39,7 @@ namespace CSAKEFTPC4Core3
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-            //modelBuilder.Entity<Kepernyo>().ToTable("Keprnyos");
+            modelBuilder.Entity<Kepernyo>().ToTable("Keprnyos");
             //modelBuilder.Entity<AdatElem>().ToTable("AdatElems");
             modelBuilder.Entity<Programkod>().ToTable("Programkods");
             //modelBuilder.Entity<Tabla>().ToTable("Tablas");
