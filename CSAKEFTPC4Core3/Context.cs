@@ -1,4 +1,4 @@
-﻿using CSAKEFTPC4Core3.Class;
+﻿
 using CSARMetaPlan.Class;
 using CSEFTPC4Core3Objects.Ac4yObjects;
 using Microsoft.EntityFrameworkCore;
@@ -7,7 +7,6 @@ using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using static CSAKEFTPC4Core3.Class.GrandPa;
 
 namespace CSAKEFTPC4Core3
 {

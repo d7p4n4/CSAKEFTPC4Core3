@@ -1,7 +1,6 @@
 ﻿using Ac4y.Annotation;
-using CSAKEFTPC4Core3.Class;
 
-namespace CSAKEFTPC4Core3.Class
+namespace CSARMetaPlan.Class
 { 
     [NeedToSerialize]
     [Persistent]

@@ -1,12 +1,12 @@
 ﻿using Ac4y.Annotation;
-using CSAKEFTPC4Core3.Class;
+
 using System.Collections.Generic;
 
 namespace CSARMetaPlan.Class
 {
     [NeedToSerialize]
     [Persistent]
-    public class Programkod : GrandPa
+    public class Programkod : RAMetaObjektum
     {
         public int Id { get; set; }
 
